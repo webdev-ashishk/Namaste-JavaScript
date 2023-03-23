@@ -1,3 +1,3 @@
 # Namaste-JavaScript
-## Source code Pesent in master branch
+## Source code Present in master branch
 All key Notes are Here
