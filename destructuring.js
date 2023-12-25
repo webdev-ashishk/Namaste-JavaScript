@@ -66,3 +66,20 @@ const personInfo = { name: "Mary", age: 30 };
 const address = { city: "London", country: "UK" };
 const userInfo = { ...personInfo, ...address };
 console.log(userInfo);
+
+const person2 = {
+  name: "Jesse",
+  age: 30,
+  address: {
+    city: "Houston",
+    state: "Texas",
+    country: "USA",
+  },
+};
+
+displayMessage(person2);
+
+function displayMessage({ address: { state } }) {
+  const message = "I live in " + state + ".";
+  console.log(message);
+}
