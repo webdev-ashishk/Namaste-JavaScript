@@ -9,4 +9,4 @@ function second() {
 function third() {
   console.log("third");
 }
-first(second, third);
+first(second, third);      🌟     🌟    🌟
