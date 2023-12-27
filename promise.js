@@ -4,3 +4,4 @@ const myPromise = new Promise((resolve, reject) => {
   // reject("fa!lure");
 });
 console.log(myPromise);
+console.log("promise", Promise);
