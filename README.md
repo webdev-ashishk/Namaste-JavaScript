@@ -16,4 +16,4 @@ https://www.fullstack.cafe/interview-questions/javascript
 
 ## What is constructor in js
 
-> a special function that creates and initializes an object instance of a class
+> a special function that creates and initializes an object instance of a clas
