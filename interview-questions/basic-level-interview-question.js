@@ -30,5 +30,6 @@ const origin = str1.split("");
 const reverse = origin.reverse().join("");
 console.log(reverse);
 console.log(str1);
+
 const result = str1 === reverse ? "pailymdrom" : "not pailymdrome";
 console.log("question 3 is : ", result);
