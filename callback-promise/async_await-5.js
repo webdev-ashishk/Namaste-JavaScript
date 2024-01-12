@@ -39,9 +39,12 @@ const displayUserData = () => {
   });
 };
 
-register()
-  .then(sendWelcomeEmail)
-  .then(login)
-  .then(getUserData)
-  .then(displayUserData);
+(async () => {
+  await register();
+  await sendWelcomeEmail();
+  await login();
+  await getUserData();
+  await displayUserData();
+})();
+
 console.log("other data is running");
