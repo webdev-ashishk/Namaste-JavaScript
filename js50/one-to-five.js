@@ -51,5 +51,4 @@ function evenNumber(number) {
 // console.log(evenNumber(number));
 
 
-// 6. Write a JavaScript program to calculate the factorial of a given number.
 
