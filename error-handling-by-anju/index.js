@@ -10,8 +10,9 @@ try {
   console.log(
     `error name is ${error.name} and error message is ${error.message}`
   );
+} finally {
+  console.log("this is finally block code!");
 }
-
 // try {
 //   console.log(age);
 // } catch (error) {
